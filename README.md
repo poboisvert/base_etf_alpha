@@ -6,7 +6,7 @@ pip install portwine
 
 ---
 ## TLDR: 
-#### The Base ETF and Broad ETF seems to offer steady returns above SPY with limited drawdown. You will have to rotate the 2 winner ETF each 1-4 months.
+#### The Base ETF and Broad ETF seems to offer steady returns above SPY with limited drawdown. You will have to rotate the 2 winner ETF each 1-4 months and get the chance to reap 10-30% alpha over the SPY (S&P500)
 ---
 
 ##### SimpleSeekingAlphaStrategy (folder examples)
