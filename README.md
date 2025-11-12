@@ -4,21 +4,14 @@
 pip install portwine
 ```
 
-https://stuartfarmer.github.io/portwine/
-
-Portfolio construction, optimization, and backtesting can be a complicated web of data wrangling, signal generation, lookahead bias reduction, and parameter tuning.
-
-But with `portwine`, strategies are clear and written in an 'online' fashion that removes most of the complexity that comes with backtesting, analyzing, and deploying your trading strategies.
-
+---
+TLDR: The Base ETF and Broad ETF seems to offer steady returns above SPY with limited drawdown.
 ---
 
 ##### SimpleSeekingAlphaStrategy (folder examples)
 
 This example shows how the platform makes building and analyzing a basic equity rotation strategy simple.
 Below, we use the `EquityDrawdownAnalyzer` to visualize the portfolio drawdowns for an "all_ETF" portfolio—a diversified portfolio including all selected ETFs. The output chart (`examples/all_etf.png`) gives a quick overview of how the portfolio performed during market stress periods and helps identify potential risk episodes.
-
-
-The Base ETF and Broad ETF seems to offer steady returns with limited drawdown.
 
 ```python
 EquityDrawdownAnalyzer().plot(results)
