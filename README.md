@@ -1,11 +1,12 @@
-# portwine - a clean, elegant portfolio backtester
+## Installation
 
 ```commandline
 pip install portwine
 ```
 
 ---
-TLDR: The Base ETF and Broad ETF seems to offer steady returns above SPY with limited drawdown.
+## TLDR: 
+#### The Base ETF and Broad ETF seems to offer steady returns above SPY with limited drawdown. You will have to rotate the 2 winner ETF each 1-4 months.
 ---
 
 ##### SimpleSeekingAlphaStrategy (folder examples)
