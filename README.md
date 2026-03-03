@@ -54,6 +54,20 @@ With more on the way!
 
 ---
 
+##### Top-5 Equal-Weight S&P 500 Strategy (`4_Top5_Monthly_Strategy.ipynb`)
+
+Each month, the notebook reads `sp500_constituents/sp500_constituents_YYYYMM.csv` and allocates capital **equally across the top-5 S&P 500 constituents by market-cap weight** (20 % each). The portfolio is fully rebalanced on the first trading day of every month. Returns are computed month-end to month-end and benchmarked against SPY.
+
+| Step | Notebook |
+|------|----------|
+| 1 · Scrape current constituents | `2_SP500_Constituents.ipynb` |
+| 2 · Backfill history (2000 →) | `3_Backfill_SP500_Constituents.ipynb` |
+| 3 · Run strategy & chart | `4_Top5_Monthly_Strategy.ipynb` |
+
+![Top-5 Equal-Weight Strategy vs SPY](sp500_constituents/top5_strategy.png)
+
+---
+
 ### Docs
 
 https://stuartfarmer.github.io/portwine/
